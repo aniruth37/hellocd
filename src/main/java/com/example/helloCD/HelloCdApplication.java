@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @RestController
-@SpringBootApplication
+@EnableAutoConfiguration
 public class HelloCdApplication {
 
 	@RequestMapping("/")
